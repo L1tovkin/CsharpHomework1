@@ -26,6 +26,7 @@ if (b > a){
 
 */
 
+/*
 Console.Write("Введите первое число: ");
 int a = int.Parse(Console.ReadLine());
 Console.Write("Введите второе число: ");
@@ -39,3 +40,21 @@ if (c > max) max = c;
 
     
 Console.WriteLine($"{max} максимальное число");
+*/
+
+/* Задача 6:
+Напишите прогу, на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+4 -> да
+-3 -> нет
+7 -> нет
+*/
+
+Console.WriteLine("Введите число: ");
+int n = int.Parse(Console.ReadLine());
+
+if (n % 2 == 0){
+    Console.WriteLine($"{n} четное число");
+}
+else {
+    Console.WriteLine($"{n} нечетное число");
+}
